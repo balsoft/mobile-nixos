@@ -20,9 +20,6 @@
     sha256 = "1lv18v7jwhspzry1i7pr7jgbycm18hxiymbnwq727sqqlwmz7lzw";
   };
 
-  patches = [
-  ];
-
   isModular = false;
 
 }).overrideAttrs({ postInstall ? "", postPatch ? "", ... }: {
